@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  font-family: 'Acumin Variable Concept', sans-serif;
+  background-color: #faf9f6;
+  color: #000000;
+}
+
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-weight: 550;
+  font-size: 1.8em;
+}
+.nav-link:hover {
+  opacity: 0.6;
+}
+.logo {
+  width: 200px;
+  padding: 0 20px;
+}
+
+/*Section 2*/
+.section-2 img {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/*Section 3*/
+.section-3 img {
+  width: 100%;
+  margin-top: 0;
+}
+
+/* Section 4 */
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center; /* Optional: to center the text */
+  padding: 40px 0; /* Adjust as needed */
+}
+.section-4 img {
+  width: 150px;
+  margin-bottom: 20px; /* Adjust as needed */
+  margin-top: 20px;
+}
+.section-title {
+  font-size: 4em;
+  margin: 20px 0;
+  padding-top: 10%;
+}
+.section-body {
+  font-size: 2em;
+  max-width: 800px; /* Optional: to limit the width of the text */
+  margin-bottom: 70px;
+}
+
+/* Section 5 */
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-5 img {
+  width: 32%;
+  margin: 0 10px; /* Adjust as needed for spacing */
+}
+
+/* Section 5 */
+.section-6 img {
+  width: 100%;
+}
+
+/* Section 6 */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+}
+
+.footer-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-body , a {
+  font-size: 1em;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-right: 250px;
+  margin-top: 17px;
+}
+
+.contact-section {
+  margin-left: 250px;
+}
+
+
+
